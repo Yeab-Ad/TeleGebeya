@@ -1,0 +1,156 @@
+section {
+  margin: 4rem 0 0 0;
+
+  .center {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    margin: 35px auto;
+
+    .welcomeBanner {
+      width: 95%;
+      height: 200px;
+      background: #8ac43f;
+      display: flex;
+      border-radius: 20px;
+
+      .cont {
+        display: grid;
+        align-self: center;
+
+        h1 {
+          font-size: 45px;
+          margin: 0 0 15px 15px;
+          color: white;
+          span {
+            color: #f8bf1a;
+          }
+        }
+        p {
+          color: #ffffff;
+          font-size: 15px;
+          width: 77%;
+          margin: -14px 0px -2px 18px;
+          span {
+            color: #f8bf1a;
+          }
+        }
+      }
+      img {
+        // width: 100px;
+        border-radius: 20px;
+      }
+    }
+  }
+  .category {
+    display: grid;
+    .Available {
+      font-size: 30px;
+      text-align: center;
+    }
+    .list {
+      display: flex;
+      justify-content: center;
+
+      .cont {
+        width: 15rem;
+        height: 18rem;
+        border: solid 1px #8ac444;
+        margin: 23px 5px 0px 8px;
+        border-radius: 20px;
+        overflow: hidden;
+
+        .background {
+          width: 287px;
+          height: 19rem;
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          position: relative;
+          background-position-x: -18px;
+        }
+        .info {
+          position: relative;
+          top: -9rem;
+          background: linear-gradient(1deg, #8fc43e 57%, #ffffff00 99%);
+          height: 134px;
+          display: grid;
+          align-content: center;
+
+          h1,
+          p {
+            margin: 0px 8px 0px 6px;
+          }
+          h1 {
+            font-size: 20px;
+            color: black;
+          }
+          p {
+            color: rgb(255, 255, 255);
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  .moto {
+    border: solid 3px #8ac444;
+    text-align: center;
+    margin: 29px;
+    border-radius: 20px;
+    height: 12rem;
+    display: grid;
+
+    h1 {
+      font-size: 30px;
+    }
+    .moto-title {
+      margin: 12px;
+    }
+    .moto-cont {
+      display: flex;
+      align-items: center;
+      .shipment,
+      .payment,
+      .Discounted {
+        img {
+          width: 70px;
+        }
+        h2 {
+          font-size: 17px;
+        }
+        p {
+          font-size: 12px;
+        }
+      }
+      .payment {
+        img {
+          width: 55px !important;
+        }
+      }
+    }
+  }
+
+  .powerdBy {
+    background: #f9f6f6;
+    margin: 29px;
+    border-radius: 20px;
+    display: grid;
+    justify-items: center;
+    height: 12rem;
+
+    h1 {
+      font-size: 40px;
+      display: flex;
+      align-items: center;
+      img {
+        width: 15rem;
+        margin: 24px 0 14px 30px;
+      }
+    }
+
+    img {
+      width: 8rem;
+    }
+  }
+}

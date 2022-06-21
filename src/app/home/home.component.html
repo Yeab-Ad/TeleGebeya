@@ -1,0 +1,68 @@
+<section>
+  <div class="center">
+    <div class="welcomeBanner">
+      <div class="cont">
+        <h1>
+          Welcome to
+          <span>telegebeya</span>
+        </h1>
+
+        <p>
+          buy phones , Dongles , Modems and Accessories online with free
+          shipment and easy payment using <span>telebirr </span>
+        </p>
+      </div>
+
+      <img src="./../../assets/image/Group 61.png" alt="" />
+    </div>
+  </div>
+
+  <div class="category">
+    <h1 class="Available">Available Devices</h1>
+    <div class="list">
+      <div *ngFor="let item of category" class="cont">
+        <div
+          [ngStyle]="{ 'background-image': ' url(' + item.img + ')' }"
+          class="background"
+        ></div>
+        <div class="shadow"></div>
+        <div class="info">
+          <h1 class="title">{{ item.name }}</h1>
+          <p class="moreInfo">{{ item.moreInfo }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="moto">
+    <h1 class="moto-title">We strive for your convenience</h1>
+    <div class="moto-cont">
+      <div class="shipment">
+        <img src="./../../assets/icon/Icon feather-truck.svg" alt="" />
+        <h2>Free shipping</h2>
+        <p>
+          No worries, we cover the shipping cost and simply collect at your
+          convenience!
+        </p>
+      </div>
+      <div class="payment">
+        <img src="./../../assets/icon/Icon awesome-coins.svg" alt="" />
+        <h2>Easy payment</h2>
+        <p>Pay with telebirr! It is easy, fast, secure, and convenient!</p>
+      </div>
+      <div class="Discounted">
+        <img src="./../../assets/icon/Icon metro-discout.svg" alt="" />
+        <h2>Discounted price</h2>
+        <p>Get discounted devices even much lower than our shops.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="powerdBy">
+    <h1>Powerd By <img src="./../../assets/icon/NoPath.png" alt="" /></h1>
+    <div class="parter">
+      <img src="./../../assets/icon/telegebeya.svg" alt="" />
+      <img src="./../../assets/icon/telebirr.svg" alt="" />
+    </div>
+  </div>
+</section>

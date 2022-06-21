@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Custom";
+  src: url("./assets/Fonts/HelveticaRoundedLTStd-Bd.otf");
+}
+* {
+  font-family: Custom;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
