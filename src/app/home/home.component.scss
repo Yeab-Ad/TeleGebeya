@@ -101,7 +101,7 @@ section {
     text-align: center;
     margin: 29px;
     border-radius: 20px;
-    height: 12rem;
+    height: 14rem;
     display: grid;
 
     h1 {
@@ -113,9 +113,14 @@ section {
     .moto-cont {
       display: flex;
       align-items: center;
+      justify-content: space-around;
+
       .shipment,
       .payment,
       .Discounted {
+        margin: 0 22px 0 29px;
+        width: 22%;
+
         img {
           width: 70px;
         }

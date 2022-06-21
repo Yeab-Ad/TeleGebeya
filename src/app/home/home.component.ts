@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ErrorService } from '../Service/error.service';
 
 @Component({
   selector: 'app-home',
@@ -6,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
-  constructor() {}
+  constructor(public service: ErrorService) {}
 
   ngOnInit(): void {}
+
+  error: boolean = false;
+
+  errorShow() {
+    this.error = !this.error;
+  }
 
   category = [
     {

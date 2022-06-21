@@ -1,5 +1,9 @@
 # TeleGebeya
 
+This project is cloned originally from ethiotelecom for demonstration and practice purposes. Here I modified the simple software architecture of the website like the Design and Software requirements.
+
+Soon I will implement the backend and make it a dynamic website.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
 
 ## Development server

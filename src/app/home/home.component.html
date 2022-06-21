@@ -20,7 +20,11 @@
   <div class="category">
     <h1 class="Available">Available Devices</h1>
     <div class="list">
-      <div *ngFor="let item of category" class="cont">
+      <a
+        (click)="service.errorShow()"
+        *ngFor="let item of category"
+        class="cont"
+      >
         <div
           [ngStyle]="{ 'background-image': ' url(' + item.img + ')' }"
           class="background"
@@ -30,7 +34,7 @@
           <h1 class="title">{{ item.name }}</h1>
           <p class="moreInfo">{{ item.moreInfo }}</p>
         </div>
-      </div>
+      </a>
     </div>
   </div>
 
