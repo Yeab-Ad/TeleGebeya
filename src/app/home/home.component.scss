@@ -44,6 +44,7 @@ section {
   }
   .category {
     display: grid;
+    margin-bottom: 5rem;
     .Available {
       font-size: 30px;
       text-align: center;
@@ -94,6 +95,8 @@ section {
     }
   }
   .moto {
+    margin-bottom: 5rem !important;
+
     border: solid 3px #8ac444;
     text-align: center;
     margin: 29px;
@@ -132,6 +135,8 @@ section {
   }
 
   .powerdBy {
+    margin-bottom: 5rem !important;
+
     background: #f9f6f6;
     margin: 29px;
     border-radius: 20px;
