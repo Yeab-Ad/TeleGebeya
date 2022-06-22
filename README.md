@@ -2,7 +2,7 @@
 
 This project is cloned originally from ethiotelecom for demonstration and practice purposes. Here I modified the simple software architecture of the website like the Design and Software requirements.
 
-Soon I will implement the backend and make it a dynamic website.
+Soon I will implement the backend and make it a dynamic e-commerce website.
 
 ![Alt text]("./../src/assets/image/Screenshot%202022-06-21%20200027.png)
 
