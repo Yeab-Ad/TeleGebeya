@@ -4,6 +4,8 @@ This project is cloned originally from ethiotelecom for demonstration and practi
 
 Soon I will implement the backend and make it a dynamic website.
 
+![Alt text]("./../src/assets/image/Screenshot%202022-06-21%20200027.png")
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
 
 ## Development server
