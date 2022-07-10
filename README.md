@@ -1,6 +1,6 @@
 # TeleGebeya
 
-This project is cloned originally from ethiotelecom for demonstration and practice purposes. Here I modified the simple software architecture of the website like the Design and Software requirements.
+This project is cloned originally from ethiotelecom for demonstration and practice purposes. Here I modified the simple software architecture of the website like the Design and Software requirements.To get full resource contact me.
 
 Soon I will implement the backend and make it a dynamic e-commerce website.
 
